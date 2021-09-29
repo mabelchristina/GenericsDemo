@@ -6,8 +6,8 @@ namespace GenericDemo
     {
         public static void Main(string[] args)
         {
-            GenericDemo<double> genericDemo = new GenericDemo<double>();
-            genericDemo.MaximumOfNumber(11.3, 533.2123, 533.2124);
+            GenericDemo<string> genericDemo = new GenericDemo<string>();
+            genericDemo.MaximumOfNumber("hi", "hello", "world");
         }
     }
 }
